@@ -16,7 +16,7 @@ export default function Main() {    // Default Export
   useEffect(() => {
     axios
       .get(
-        "https://backend-bhushanpatil.onrender.com/post"   // Backend deployment useed for fetching the data
+        "https://backend-bhushanpatil.onrender.com/posts"   // Backend deployment useed for fetching the data
       )
       .then((res) => {
         setdata(res.data);
